@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/ich'
+  get 'welcome/Ark'
   get 'welcome/index'
   root 'welcome#index' # index = homepage
 
